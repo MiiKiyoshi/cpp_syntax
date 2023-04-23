@@ -10,7 +10,7 @@ int main() {
 	printf("첫번째 C++ 프로그램입니다.\n");
 
 	printf("정수를 입력하세요: ");
-	scanf_s("%d", &num);
+	scanf("%d", &num);
 
 	printf("입력한 정수는 %d입니다.\n", num);
 
