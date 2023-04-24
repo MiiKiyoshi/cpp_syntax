@@ -46,11 +46,6 @@ int main(){
   c1.input();
   c1.calc();
   c1.output();
-
-  Rect r1;
-  r1.input();
-  r1.calc();
-  r1.output();
 }
 
 //c++ lang with a class, fuctions (어디에도 속하지 않는 함수를 일반함수라고 함)
