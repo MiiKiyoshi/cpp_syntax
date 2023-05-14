@@ -3,14 +3,14 @@ using namespace std;
 
 class oba{
 private:
-  int a;
+  int a; // 자식이 못보는 정보
 public:
    void seta(int temp);
 };
 
 class obj : public oba{
 public:
-  int c;
+  int c; 
 };
 
 class obk : public oba{
