@@ -1,7 +1,7 @@
 # -------------------settings-----------------------#
 CC = gcc
 TARGET = a.out
-OBJS = main.o heap.o elevator.o
+OBJS = main.o base.o child.o
 	# CC: 사용할 컴파일러 TARGET(@): 만들 실행파일 OBJS(^): 의존하는 놈들
 
 # 컴파일 옵션
